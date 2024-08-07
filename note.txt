@@ -1,0 +1,37 @@
+Running :
+1. Laravel 7/8
+3. Php 7.4
+2. Comman localhost:8000
+
+Improve :
+My Product :
+    1. Admin : Tampil Semua
+    2. User Penjual : Tampil berdasarkan user tersebut
+    3. User Bisa Beli Bisa Jual - Kalo Bisa Jual Barang yang ada di toko dia tidak bisa dibeli
+    4. Pergantian username password juga harus menyertakan email, gimana caranya agar tidak bebenturan
+    5. Edit Profil setting Provinsi dan Kota harusnya tampil selectnya
+    6. Titik Format rupiah dan dolar diganti Rp.
+    7. CK editor update version
+    8. Belum ada shipping biaya, country tax, product insurance
+    9. Transaction status pending success, cek midtrans auto sett callback atau apabila tambah upload bukti manual 
+    10. Ubah status shipping dan resi only admin / penjual dari toko yang dibeli tsb.
+    11. Store Setting apaabila tutup sementara di hide ke dashboard / kategori publick
+    12. Store Setting kategori select option dipilih
+    13. Foto Icon Admin User Bedakan.
+    14. Dashboard Costumer card di group by based on user yang belanja pada penjual kategori toko.
+    15. Halaman cart pada input Provinsi dan Kota harusnya tampil selectnya
+    16. Apabila tidak membuka/ belum membuka toko jangan tampilkan halaman sidebar my product
+    17. Halaman sign out di halaman admin
+    18. midtrans callback redirect after payment checkout/success ( contoh baik ada dilaracamp prod )
+    19. Fitur Remove cart belum bisa
+    20. fitur transaksi product jika lebih dari satu tidak tampil semua, melainkan data barang yang pertama saja, tapi total sudah semua barang.
+        mustinya kalo satu satu harga barang tetep per produk tidak digabung di halaman buy product ketika klik detail pada tanggal transaksi, tapi kalo mau digabungbedakan transaksi bisa dengan based on satu toko ketika detail dengan tanggal transaksi.
+    21. Register masukkan alamat daaerah dan propinsi
+
+Halaman Admin :
+1. Comman localhost:8000/admin/
+
+Menjalankan ngrok untuk test sanbox:
+terminal vscode : php artisan serve
+terminal mac : ngrok http http://localhost:8000
+sett midtrans callback sanbox with ngrok : https://link-ngrok/checkout/success
