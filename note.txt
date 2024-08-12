@@ -1,7 +1,8 @@
 Running :
 1. Laravel 7/8
-3. Php 7.4
-2. Comman localhost:8000
+2. Php 7.4
+3. Comman localhost:8000
+4. Storage link di public kulik agar gambar terlihat - apakah di storage:link ulang atau hanya menambahkan storage saja di public 
 
 Improve :
 My Product :
